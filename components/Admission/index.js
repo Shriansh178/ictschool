@@ -10,19 +10,17 @@ const Admission = () => {
       <div className={styles.leftImage}></div>
       <div className={styles.rightContent}>
         <div className={styles.right_textContent}>
-          <h1>Maktabga qabul</h1>
-          <h3>2023/2024 o‘quv yili uchun maktabga qabul qilish</h3>
+          <h1>Air Force School</h1>
+          {/* <h3>Air Force School Hindan</h3> */}
           <p>
-            Ixtisoslashtirilgan maktabga o‘quvchilar O‘zbekiston Republikasi
-            Prezidenti, Ijod va Ixtisoslashgan maktablarni rivojlantirish
-            Agentligi tomonidan belgilangan kvota asosida 5-sinfdan boshlab
-            yozma va og’zaki sinov imtihonlariga ko‘ra tanlov asosida qabul
-            qilinadi.
+            Air Force School Hindan was started by the Indian Air Force Educational and Cultural Society with the aim of meeting the educational aspirations of children of Air Force Personnel posted to the National Capital Region. The school made a humble beginning, as a Station Children school, in July 1969
           </p>
+          <p>Today, Air Force School Hindan functions under the aegis of Indian Air Force Educational and Cultural Society as a recognized, unaided private school. The school is affiliated to Central Board of Secondary Education, New Delhi and offers educational facilities under 10+2 scheme of education. Air Force School Hindan achieved major milestone in 2011 when it received ISO 9001-2008 certification, confirming its commitment to excellence</p>
+          
           <Button
-            href="https://ariza.piima.uz/"
+            href=""
             border={"rounded-none"}
-            text={"Ro'yxatdan o'tish"}
+            text={"READ MORE "}
             bgcolor={"bg-[#3a3a7c]"}
           />
         </div>

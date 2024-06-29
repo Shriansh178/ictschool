@@ -74,20 +74,25 @@ const Header = ({
             <div className={styles.logo}>
               <Link href={"/"} passHref legacyBehavior>
                 <span>
+
                   <Image
-                    src={"/images/al_Xorazmiy.png"}
+                    src={"/images/logo.png"}
                     alt={"logo"}
-                    height={35}
-                    width={300}
+                    height={15}
+                    width={80}
+                  
                   />
+               
                 </span>
+              
               </Link>
+              <h1 className="ml-2 mt-10 font-extrabold leading-8 color-gradient-to-r from-orange-500 via-blue-900 to-green-500 ... ">Air force  school Hindan</h1>
             </div>
             <div>
               <div onClick={() => setOpened(!open)}>
                 <Hamburger open={open} />
               </div>
-            </div>
+             </div>
           </div>
           {/*nav*/}
           <NavList />
@@ -97,22 +102,21 @@ const Header = ({
         {header_content === true ? (
           <div className={!video ? styles.content : styles.video_content}>
             <h1>
-              Muhammad al-Xorazmiy nomidagi axborot texnologiyalariga
-              ixtisoslashtirilgan maktabi
+            <strong className="bg-gradient-to-r from-orange-500 via-blue-900 to-green-500 ...">Welcome to Air Force  School Hindan</strong>
             </h1>
-            <p className="mb-6 text-lg italic">qabul 2023/2024</p>
+            <p className="mb-6 text-lg italic"></p>
             <Button
               href="/admission"
               bgcolor={"bg-[hsla(230,80%,30%,0.5)]"}
               className="mt-8"
-              text={"batafsil"}
-            />
+              text={"read more"}
+              />
           </div>
         ) : error_page ? (
           <Error
-            error_type={"404"}
-            description={"PAGE NOT FOUND"}
-            message={"Sorry, we couldn't find the page you're looking for."}
+          error_type={"404"}
+          description={"PAGE NOT FOUND"}
+          message={"Sorry, we couldn't find the page you're looking for."}
           />
         ) : (
           <div>
@@ -126,3 +130,4 @@ const Header = ({
 };
 
 export default Header;
+

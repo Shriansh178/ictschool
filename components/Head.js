@@ -1,8 +1,8 @@
 import NextHead from "next/head";
 
 const Head = ({
-  title = "Muhammad al-Xorazmiy AKT maktabi | ICTSchool.uz",
-  description = "Muhammad al-Xorazmiy nomidagi AKTga ixtisoslashtirilgan maktab | ICTSchool.uz",
+  title = "Air Force Hindan School",
+  description = "Air Force Hindan School",
   image = "",
   children,
 }) => {
@@ -20,7 +20,7 @@ const Head = ({
       <meta name="og:image" content={image} />
 
       {/* URL */}
-      <meta name="og:url" content="https://ictschool.uz/" />
+      <meta name="og:url" content="https://airforceschool/" />
 
       {/* General */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

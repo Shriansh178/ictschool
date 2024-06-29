@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 const CardFooter = ({
-  footer_text = "Batafsil",
+  footer_text = "Learn more",
   anchor = "/",
   download = false,
 }) => {

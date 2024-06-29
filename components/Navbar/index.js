@@ -1,3 +1,4 @@
+// top nav bar
 import styles from "./navbar.module.css";
 import Image from "next/image";
 import { faEnvelopeOpen, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +16,7 @@ const Navbar = () => {
               fontSize={"15px"}
               color="white"
             />
-            <p>info@ictschool.uz</p>
+            <p>afshindanprincipal@yahoo.com</p>
             <FontAwesomeIcon
               className={styles.icon}
               icon={faPhone}
@@ -23,12 +24,12 @@ const Navbar = () => {
               color="white"
             />
             <p className={styles.num}>
-              <a>1206</a>
+              <a>+91 000-151-9090</a>
             </p>
           </div>
           <div className={styles.right}>
-            <Link href="https://eclass.ictschool.uz/" passHref target="_blank">
-              <p>E-CLASS</p>
+            <Link href="" passHref target="_blank">
+              <p>Addmission</p>
             </Link>
           </div>
         </div>

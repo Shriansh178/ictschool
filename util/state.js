@@ -1,20 +1,20 @@
 let state = {
   navbar: [
     {
-      title: "Bosh sahifa",
+      title: "HOME",
       url: "/",
       submenu: null,
     },
     {
-      title: "Maktab haqida",
+      title: "ABOUT",
       url: "/",
       submenu: [
         {
-          title: "Maktab haqida",
+          title: "ADDMISSION",
           url: "/school-life",
           submenu: [
             {
-              title: "Maktab hayoti",
+              title: "FEES PAYMENT",
               url: "/school-life",
               submenu: null,
             },
@@ -39,19 +39,19 @@ let state = {
       ],
     },
     {
-      title: "Qabul",
+      title: "ADDMISSION",
       url: "/admission",
       submenu: [
-        { title: "Qabul haqida", url: "/admission", submenu: null },
+        { title: "ADDMISSION", url: "/admission", submenu: null },
         {
-          title: "Onlayn hujjat topshirish",
+          title: "ADDMISSION",
           url: "https://ariza.piima.uz/",
           submenu: null,
         },
       ],
     },
     {
-      title: "Maktab hayoti",
+      title: "Mandatory Public Disclosure ",
       url: "/smth",
       submenu: [
         {
@@ -96,19 +96,19 @@ let state = {
           ],
         },
         {
-          title: "Onlayn darslar",
+          title: "FACILITY",
           url: "https://www.youtube.com/@ITFizika",
           submenu: null,
         },
       ],
     },
     {
-      title: "Onlayn darslar",
+      title: "FACILITY",
       url: "https://www.youtube.com/@ITFizika",
       submenu: null,
     },
     {
-      title: "Bog'lanish",
+      title: "CONTACT",
       url: "/smth",
       submenu: [
         {

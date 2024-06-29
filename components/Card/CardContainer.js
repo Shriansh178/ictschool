@@ -6,24 +6,24 @@ const CardContainer = () => {
       <Card
         image_width={500}
         icon={"/icons/img_2.png"}
-        image={"/images/interview.jpg"}
+        image={"/images/afsimage2.png"}
         description={
           "\n" +
-          "Bizning maktabimiz al-Xorazmiy kabi bobokalonimiz davomchilarini yetishtirish, axborot-kommunikatsiya texnologiyalari yo‘nalishidagi iqtidorlarni aniqlash va qobiliyatlarini ro‘yobga chiqarish uchun zarur shart-sharoitlarni yaxshilash maqsadida tashkil etilgan."
+          "A school's infrastructure refers to the physical facilities and resources that support teaching, learning, and other school activities. Some key aspects of a school's infrastructure include:Having a well-designed and well-maintained infrastructure is essential for creating a conducive learning ."
         }
-        title={"IT Maktab Hayoti"}
+        title={"Infrastructure"}
         footer={true}
-        anchor="/school-life"
+        anchor="/school-life"   
       />
       <Card
         header_color={"#0f1744"}
         image_width={500}
         icon={"/icons/img_1.png"}
-        image={"/images/s8.JPG"}
+        image={"/images/afsimg.JPG"}
         description={
-          "Mazkur IT maktabning asosiy vazifasilaridan biri: O‘quvchilarda dasturlash asoslari, ma’lumotlar bazalarini shakllantirish va axborot xavfsizligi ko‘nikmalari hamda raqamli media madaniyatni maktab davridanoq shakllantirish."
+          "- Hands-on learning spaces for science, technology, engineering, and mathematics (STEM) subjects Equipped with basic equipment, tools, and materials for experiments and investigations - Foster curiosity, critical thinking, and problem-solving skills Encourage students ."
         }
-        title={"Ta`lim"}
+        title={"school Advance labs"}
         footer={true}
         anchor="/steam-subjects"
       />
@@ -31,11 +31,11 @@ const CardContainer = () => {
         image_width={500}
         header_color={"#050b29"}
         icon={"/icons/img.png"}
-        image={"/images/maktab-hayoti.jpg"}
+        image={"/images/image 113.png"}
         description={
-          "Respublikada yagona bo‘lmish mazkur IT maktabga o‘quvchilar O‘zbekiston Republikasi Prezidenti, Ijod va Ixtisoslashgan maktablarni rivojlantirish Agentligi tomonidan belgilangan kvota asosida 5-sinfdan qabul qilinadi."
+          "- State-of-the-art facilities with cutting-edge technology and equipment Specialized labs for specific subjects like physics, chemistry, biology, and computer science High-end equipment like microscopes, spectrophotometers, and 3D printers - Support advanced research, innovation ."
         }
-        title={"Qabul"}
+        title={" bilogical labs "}
         footer={true}
         anchor="/admission"
       />

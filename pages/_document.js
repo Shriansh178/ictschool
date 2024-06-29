@@ -52,7 +52,7 @@ export default function Document() {
         <link rel="icon" sizes="192x192" href={"/favicon/favicon-192.png"} />
       </Head>
       <body>
-        <Main />
+        <Main/>
         <NextScript />
       </body>
     </Html>
